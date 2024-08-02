@@ -2142,6 +2142,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _waypointPath: {fileID: 1825740396}
   _speed: 1
+--- !u!1 &521718087 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
+  m_PrefabInstance: {fileID: 1028467857}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &532679902 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 11e94400b268f034880418314082e4e7, type: 3}
@@ -3923,10 +3928,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileLarge_teamBlue (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1813037709}
   m_SourcePrefab: {fileID: 100100000, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
 --- !u!4 &981131619 stripped
 Transform:
@@ -3969,6 +3985,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
   m_PrefabInstance: {fileID: 1028467857}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1005808462
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521718087}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.51948, y: 1.4591258, z: 0.9999999}
+  m_Center: {x: 1.2597369, y: 0.22956294, z: 0}
 --- !u!1001 &1005872272
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4038,6 +4075,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 175b3dcc886c4444a95073e98f130f89, type: 3}
   m_PrefabInstance: {fileID: 1005872272}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1016554995 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
+  m_PrefabInstance: {fileID: 1683753893}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1021534744
 PrefabInstance:
@@ -4209,10 +4251,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileLarge_teamBlue (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1005808462}
   m_SourcePrefab: {fileID: 100100000, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
 --- !u!1 &1030848354
 GameObject:
@@ -6134,6 +6187,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5a4ab846cb2f81447a31c862224b9139, type: 3}
   m_PrefabInstance: {fileID: 1540572326}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1544152081 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
+  m_PrefabInstance: {fileID: 1860911463}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1581071049 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 404060abd101630439552ab88ed5db15, type: 3}
@@ -6410,16 +6468,48 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileLarge_teamBlue (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1683753895}
   m_SourcePrefab: {fileID: 100100000, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
 --- !u!4 &1683753894 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
   m_PrefabInstance: {fileID: 1683753893}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1683753895
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016554995}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.6103833, y: 1.505455, z: 2.7182677}
+  m_Center: {x: 1.3051916, y: 0.2527275, z: 0.016010838}
 --- !u!1001 &1720336568
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7007,6 +7097,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5a4ab846cb2f81447a31c862224b9139, type: 3}
   m_PrefabInstance: {fileID: 1798478873}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1813037708 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
+  m_PrefabInstance: {fileID: 981131618}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1813037709
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813037708}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.7666192, y: 1, z: 1}
+  m_Center: {x: 1.3833082, y: -2.750354e-14, z: 0}
 --- !u!1 &1825740395
 GameObject:
   m_ObjectHideFlags: 0
@@ -7289,16 +7405,48 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileLarge_teamBlue
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1860911465}
   m_SourcePrefab: {fileID: 100100000, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
 --- !u!4 &1860911464 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 65121a0a951fd5547a76fc38b71c0b77, type: 3}
   m_PrefabInstance: {fileID: 1860911463}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1860911465
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544152081}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.6103833, y: 1.6643028, z: 2.7182677}
+  m_Center: {x: 1.3051916, y: 0.3321514, z: 0.016010838}
 --- !u!1001 &1862177986
 PrefabInstance:
   m_ObjectHideFlags: 0
