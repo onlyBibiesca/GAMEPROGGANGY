@@ -96,7 +96,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 763f68a94cad90544acbca6d1da12609, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -1413,7 +1413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b077dd0c9adbcd4cbdf271262317d41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: 0
+  Respawn: 1
 --- !u!65 &373588173
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4983,7 +4983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b077dd0c9adbcd4cbdf271262317d41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: 0
+  Respawn: 1
 --- !u!65 &1282604905
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7083,7 +7083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b077dd0c9adbcd4cbdf271262317d41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: 0
+  Respawn: 1
 --- !u!65 &1839623718
 BoxCollider:
   m_ObjectHideFlags: 0
